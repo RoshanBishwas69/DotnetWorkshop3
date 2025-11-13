@@ -1,10 +1,13 @@
-﻿namespace Task_3
+﻿using System;
+
+namespace Task_3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            IfElseSwitch ifElseSwitch = new IfElseSwitch();
+            ifElseSwitch.CheckAgeCategory();
         }
     }
 }
